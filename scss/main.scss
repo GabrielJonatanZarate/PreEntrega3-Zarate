@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+@import "./assets/reset";
+@import "./sections/header-index";
+@import "./sections/main-index";
+
+
+@media (min-width: 330px) {
+    .navegacion ul {
+        width: 100vw;
+        justify-content: space-between;
+    }
+}
+
+@media (min-width: 600px) {
+    .imgtodas {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-areas:
+            "imagen-grande imagen-grande sanjiimg zoroimg"
+            "imagen-grande imagen-grande chopperimg frankyimg";
+    }
+
+}
+
+@media (min-width: 600px) {
+    .todozoro {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-areas:
+            "giftzoro espadazoro espadazoro"
+            "giftzoro muchasespadas muchasespadas";
+    }
+
+}
+
+
+@media (min-width: 600px) {
+    .todosanji {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-areas:
+            "sanjilargo sanjilargo ytsanji"
+            "sanjilargo sanjilargo yttsanji"
+    }
+
+}

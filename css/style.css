@@ -1,0 +1,181 @@
+@import url("https://fonts.googleapis.com/css2?family=Poiret+One&display=swap");
+* {
+  margin: 0;
+  padding: 0; }
+
+img {
+  width: 100%;
+  height: 100%; }
+
+.navegacion {
+  background-color: #a52a2a;
+  background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/ea1ce461-1571-4265-a1fb-4bd046909863/d69pfgv-0da65e13-b1c4-4dc0-b70e-ba7059fec263.png/v1/fill/w_1024,h_576,q_80,strp/one_piece___sunny_go_by_tonigr92_d69pfgv-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NTc2IiwicGF0aCI6IlwvZlwvZWExY2U0NjEtMTU3MS00MjY1LWExZmItNGJkMDQ2OTA5ODYzXC9kNjlwZmd2LTBkYTY1ZTEzLWIxYzQtNGRjMC1iNzBlLWJhNzA1OWZlYzI2My5wbmciLCJ3aWR0aCI6Ijw9MTAyNCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.MWwEn6l3gqnV40li2un2OyeSe23yAGgbhvm-9_BO1Ws);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-end;
+  flex-wrap: wrap; }
+  .navegacion img {
+    height: 200px; }
+  .navegacion ul {
+    padding: 20px;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    box-shadow: 6px 0px 20px 4px black; }
+  .navegacion li {
+    margin: 0 30px; }
+    .navegacion li:hover {
+      background-color: #f7db05;
+      color: #040404;
+      text-decoration: underline;
+      transition: all .3s; }
+    .navegacion li a {
+      color: #03000b;
+      text-decoration: none; }
+      .navegacion li a:hover {
+        color: red;
+        transition: all .4s; }
+
+.nav-abajo {
+  align-items: flex-end; }
+
+h1 {
+  background-color: #f2ff00;
+  color: #f90505;
+  font-weight: bold;
+  padding: 20px;
+  text-align: center;
+  margin: 15px;
+  font-family: 'Poiret One', sans-serif; }
+
+.main-index {
+  background-image: url(https://pbs.twimg.com/media/FA2ZVOpVgAAtjku.jpg:large); }
+
+article {
+  border: 2px solid black;
+  margin: 20px;
+  padding: 10px; }
+
+p {
+  color: brown;
+  text-decoration: underline;
+  text-align: center; }
+
+.subrayado-mayuscula {
+  text-decoration: underline;
+  text-transform: uppercase; }
+
+/* PAGINA DE ZORO */
+.giftzoro {
+  grid-area: giftzoro;
+  background-image: url("../recursos/one-piece-episode-1062-gifs-v0-1ftc509pmw8b1.gif");
+  background-size: cover; }
+
+.espadazoro {
+  grid-area: espadazoro;
+  background-image: url("../recursos/roronoa-zoro.jpg");
+  background-size: cover; }
+
+.muchasespadas {
+  grid-area: muchasespadas;
+  background-image: url("../recursos/tercera-imagen-zoro.webp");
+  background-size: cover; }
+
+.todozoro {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(3, 400px);
+  grid-template-areas: "giftzoro" "espadazoro" "muchasespadas";
+  max-width: 1000px;
+  margin: auto; }
+
+/* PAGINA DE SANJI */
+.ytsanji {
+  grid-area: ytsanji; }
+
+.yttsanji {
+  grid-area: yttsanji; }
+
+.sanjilargo {
+  grid-area: sanjilargo;
+  background-image: url("../recursos/sanjiparado.webp");
+  background-size: cover; }
+
+.todosanji {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(3, 300px);
+  grid-template-areas: "ytsanji" "yttsanji" "sanjilargo";
+  max-width: 1000px;
+  margin: auto; }
+
+/* PAGINA DE LUFFY */
+.navbar .navbar-expand-lg .bg-primary img {
+  flex-direction: row;
+  align-items: flex-end; }
+
+.carousel-img {
+  width: 50%;
+  margin: auto; }
+
+/* mobile first index */
+.audio {
+  margin: auto; }
+
+.imgtodas {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(5, 200px);
+  grid-template-areas: "imagen-grande" "sanjiimg" "zoroimg" "chopperimg" "frankyimg" "audio";
+  max-width: 1000px;
+  margin: auto; }
+
+.imagen-grande {
+  grid-area: imagen-grande;
+  background-image: url("../recursos/Luffy.jpg");
+  background-size: cover; }
+
+.sanjiimg {
+  grid-area: sanjiimg;
+  background-image: url("../recursos/Sanji.png");
+  background-size: cover; }
+
+.zoroimg {
+  grid-area: zoroimg;
+  background-image: url("../recursos/Zoro.jpeg");
+  background-size: cover; }
+
+.chopperimg {
+  grid-area: chopperimg;
+  background-image: url("../recursos/chopper-1.webp");
+  background-size: cover; }
+
+.frankyimg {
+  grid-area: frankyimg;
+  background-image: url("../recursos/franky.webp");
+  background-size: cover; }
+
+@media (min-width: 330px) {
+  .navegacion ul {
+    width: 100vw;
+    justify-content: space-between; } }
+
+@media (min-width: 600px) {
+  .imgtodas {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas: "imagen-grande imagen-grande sanjiimg zoroimg" "imagen-grande imagen-grande chopperimg frankyimg"; } }
+
+@media (min-width: 600px) {
+  .todozoro {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: "giftzoro espadazoro espadazoro" "giftzoro muchasespadas muchasespadas"; } }
+
+@media (min-width: 600px) {
+  .todosanji {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: "sanjilargo sanjilargo ytsanji" "sanjilargo sanjilargo yttsanji"; } }
