@@ -1,3 +1,9 @@
+.sanjiimg {
+    grid-area: sanjiimg;
+    background-image: url("../recursos/sanji.png");
+    background-size: cover;
+}
+
 .ytsanji {
     grid-area: ytsanji;
 }
@@ -39,9 +45,3 @@
 }
 
 
-
-.sanjiimg {
-    grid-area: sanjiimg;
-    background-image: url("../recursos/sanji.png");
-    background-size: cover;
-}
