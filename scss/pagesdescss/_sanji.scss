@@ -1,0 +1,36 @@
+.ytsanji {
+    grid-area: ytsanji;
+}
+
+.yttsanji {
+    grid-area: yttsanji;
+
+}
+
+.sanjilargo {
+    grid-area: sanjilargo;
+    background-image: url("../recursos/sanjiparado.webp");
+    background-size: cover;
+}
+
+.todosanji {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 300px);
+    grid-template-areas:
+        "ytsanji"
+        "yttsanji"
+        "sanjilargo"
+    ;
+    max-width: 1000px;
+    margin: auto;
+}
+
+
+
+
+.sanjiimg {
+    grid-area: sanjiimg;
+    background-image: url("../recursos/sanji.png");
+    background-size: cover;
+}

@@ -20,82 +20,6 @@ p {
     text-transform: uppercase;
 }
 
-/* PAGINA DE ZORO */
-.giftzoro {
-    grid-area: giftzoro;
-    background-image: url("../recursos/one-piece-episode-1062-gifs-v0-1ftc509pmw8b1.gif");
-    background-size: cover;
-}
-
-.espadazoro {
-    grid-area: espadazoro;
-    background-image: url("../recursos/roronoa-zoro.jpg");
-    background-size: cover;
-}
-
-.muchasespadas {
-    grid-area: muchasespadas;
-    background-image: url("../recursos/tercera-imagen-zoro.webp");
-    background-size: cover;
-}
-
-.todozoro {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(3, 400px);
-    grid-template-areas:
-        "giftzoro"
-        "espadazoro"
-        "muchasespadas"
-    ;
-    max-width: 1000px;
-    margin: auto;
-}
-
-/* PAGINA DE SANJI */
-
-
-.ytsanji {
-    grid-area: ytsanji;
-}
-
-.yttsanji {
-    grid-area: yttsanji;
-
-}
-
-.sanjilargo {
-    grid-area: sanjilargo;
-    background-image: url("../recursos/sanjiparado.webp");
-    background-size: cover;
-}
-
-.todosanji {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(3, 300px);
-    grid-template-areas:
-        "ytsanji"
-        "yttsanji"
-        "sanjilargo"
-    ;
-    max-width: 1000px;
-    margin: auto;
-}
-
-
-/* PAGINA DE LUFFY */
-.navbar .navbar-expand-lg .bg-primary img {
-    flex-direction: row;
-    align-items: flex-end;
-}
-
-.carousel-img {
-    width: 50%;
-    margin: auto;
-}
-
-
 /* mobile first index */
 .audio {
     margin: auto;
@@ -118,23 +42,11 @@ p {
 }
 
 
-.imagen-grande {
-    grid-area: imagen-grande;
-    background-image: url("../recursos/Luffy.jpg");
-    background-size: cover;
-}
 
-.sanjiimg {
-    grid-area: sanjiimg;
-    background-image: url("../recursos/Sanji.png");
-    background-size: cover;
-}
 
-.zoroimg {
-    grid-area: zoroimg;
-    background-image: url("../recursos/Zoro.jpeg");
-    background-size: cover;
-}
+
+
+
 
 .chopperimg {
     grid-area: chopperimg;

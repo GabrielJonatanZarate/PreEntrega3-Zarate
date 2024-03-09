@@ -1,0 +1,15 @@
+.navbar .navbar-expand-lg .bg-primary img {
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+.carousel-img {
+    width: 50%;
+    margin: auto;
+}
+
+.imagen-grande {
+    grid-area: imagen-grande;
+    background-image: url("../recursos/luffy.jpg");
+    background-size: cover;
+}
