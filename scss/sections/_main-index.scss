@@ -42,12 +42,6 @@ p {
 }
 
 
-
-
-
-
-
-
 .chopperimg {
     grid-area: chopperimg;
     background-image: url("../recursos/chopper-1.webp");
@@ -57,5 +51,11 @@ p {
 .frankyimg {
     grid-area: frankyimg;
     background-image: url("../recursos/franky.webp");
+    background-size: cover;
+}
+
+.zoroimg {
+    grid-area: zoroimg;
+    background-image: url("../recursos/zoro.jpeg");
     background-size: cover;
 }
