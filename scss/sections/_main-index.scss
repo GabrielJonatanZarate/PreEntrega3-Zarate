@@ -42,12 +42,13 @@ p {
 }
 
 
+@media (min-width: 600px) {
+    .imgtodas {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-areas:
+            "imagen-grande imagen-grande sanjiimg zoroimg"
+            "imagen-grande imagen-grande chopperimg frankyimg";
+    }
 
-
-
-
-.zoroimg {
-    grid-area: zoroimg;
-    background-image: url("../recursos/zoro.jpeg");
-    background-size: cover;
 }

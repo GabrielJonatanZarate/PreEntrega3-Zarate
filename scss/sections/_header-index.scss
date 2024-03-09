@@ -56,3 +56,10 @@ h1 {
     margin: 15px;
     font-family: 'Poiret One', sans-serif;
 }
+
+@media (min-width: 330px) {
+    .navegacion ul {
+        width: 100vw;
+        justify-content: space-between;
+    }
+}
