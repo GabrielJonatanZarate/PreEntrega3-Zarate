@@ -1,3 +1,9 @@
+.zoroimg {
+    grid-area: zoroimg;
+    background-image: url("../recursos/zoro.jpeg");
+    background-size: cover;
+}
+
 .giftzoro {
     grid-area: giftzoro;
     background-image: url("../recursos/one-piece-episode-1062-gifs-v0-1ftc509pmw8b1.gif");
@@ -41,9 +47,4 @@
 
 }
 
-.zoroimg {
-    grid-area: zoroimg;
-    background-image: url("../recursos/zoro.jpeg");
-    background-size: cover;
-}
 
