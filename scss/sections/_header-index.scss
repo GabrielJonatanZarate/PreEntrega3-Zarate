@@ -1,6 +1,7 @@
 .navegacion {
     background-color: #a52a2a;
     background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/ea1ce461-1571-4265-a1fb-4bd046909863/d69pfgv-0da65e13-b1c4-4dc0-b70e-ba7059fec263.png/v1/fill/w_1024,h_576,q_80,strp/one_piece___sunny_go_by_tonigr92_d69pfgv-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NTc2IiwicGF0aCI6IlwvZlwvZWExY2U0NjEtMTU3MS00MjY1LWExZmItNGJkMDQ2OTA5ODYzXC9kNjlwZmd2LTBkYTY1ZTEzLWIxYzQtNGRjMC1iNzBlLWJhNzA1OWZlYzI2My5wbmciLCJ3aWR0aCI6Ijw9MTAyNCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.MWwEn6l3gqnV40li2un2OyeSe23yAGgbhvm-9_BO1Ws);
+    // background-image: radial-gradient(rgb(0, 208, 255),white);
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -14,6 +15,7 @@
     ul {
         padding: 20px;
         list-style: none;
+        background-image: radial-gradient(rgb(103, 215, 253), white, );
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
@@ -24,7 +26,7 @@
         margin: 0 30px;
 
         &:hover {
-            background-color: rgb(247, 219, 5);
+            background-color: $amarillo;
             color: rgb(4, 4, 4);
             text-decoration: underline;
             transition: all .3s;
@@ -32,7 +34,7 @@
 
         a {
             &:hover {
-                color: rgb(255, 0, 0);
+                color: $rojo;
                 transition: all .4s;
             }
 
@@ -49,7 +51,8 @@
 
 h1 {
     background-color: #f2ff00;
-    color: rgb(249, 5, 5);
+    // color: rgb(249, 5, 5);
+    color: $rojo;
     font-weight: bold;
     padding: 20px;
     text-align: center;
@@ -61,5 +64,25 @@ h1 {
     .navegacion ul {
         width: 100vw;
         justify-content: space-between;
+    }
+}
+
+.main-index {
+    .todomaps {
+        form {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            flex-wrap: wrap;
+            input{
+                border-radius: 5px;
+                box-shadow: 5px 5px 5px black;
+                padding: 10px;
+                &:focus{
+                    background-color: rgba(0, 255, 255, 0.41);
+                    text-align: center;
+                }
+            }
+        }
     }
 }
